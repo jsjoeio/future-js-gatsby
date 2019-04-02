@@ -1,4 +1,4 @@
-# Slide Deck Template
+# Slide Deck - The Future of JavaScript Apps is Gatsby.js
 
 Built with [mdx-deck](https://github.com/jxnblk/mdx-deck).
 

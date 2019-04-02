@@ -10,13 +10,13 @@
     "help": "mdx-deck"
   },
   "keywords": [],
-  "author": "Brent Jackson",
+  "author": "JavaScript Joe",
   "license": "MIT",
   "devDependencies": {
     "emoji-favicon-webpack-plugin": "^1.1.4",
     "mdx-deck": "^1.6.7"
   },
-  "name": "build-chrome-exts-react",
+  "name": "future-js-gatsby",
   "dependencies": {
     "styled-components": "^4.1.2"
   }
