@@ -2,5 +2,5 @@
 const EmojiFaviconPlugin = require('emoji-favicon-webpack-plugin')
 
 module.exports = {
-  plugins: [new EmojiFaviconPlugin('✍️')]
+  plugins: [new EmojiFaviconPlugin('🔥')]
 }
