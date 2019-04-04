@@ -32,9 +32,9 @@ Think about it for a second...logic vs. feelings
 ---
 
 <Appear>
-  <h2>More Reliable</h2>
-  <h2>Clear Expectations</h2>
-  <h2>Confidence</h2>
+  <p>More Reliable</p>
+  <p>Clear Expectations</p>
+  <p>Confidence</p>
 </Appear>
 
 ---
@@ -45,7 +45,7 @@ Think about it for a second...logic vs. feelings
 
 ---
 
-<h1>OPINIONS</h1>
+# OPINIONS
 
 ---
 
@@ -65,7 +65,7 @@ I love to start off my talks by getting to know you all a little bit. I'm going 
 
 <Appear>
   <div>
-    <iframe src="https://giphy.com/embed/7PsNe7kURy84E" width="680" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <iframe src="https://giphy.com/embed/7PsNe7kURy84E" width="680" height="400" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
     <div>
       <q style={{ fontSize: '56px', marginTop: '100px', fontStyle: 'italic'}}>Gatsby is basically...<br/>an opinionated create-react-app</q>
     </div>
@@ -116,57 +116,131 @@ At the end of this, I want you to think "I could build my next website/blog with
 # Companies using Gatsby
 
 <Appear>
-  <p><Link>https://reactjs.org/</Link></p>
-  <p><Link>https://www.shopflamingo.com/</Link></p>
-  <p><Link>https://gm.capitalone.com/</Link></p>
-  <p><Link>https://justdoit.nike.com/</Link></p>
-  <p><Link>https://www.algolia.com/</Link></p>
-  <p><Link>https://www.carbondesignsystem.com/</Link></p>
+  <p><Link href="https://reactjs.org/" alt='ReactJS website.'>https://reactjs.org/</Link></p>
+  <p><Link href="https://www.shopflamingo.com/" alt='ShopFlamingo site.'>https://www.shopflamingo.com/</Link></p>
+  <p><Link href="https://gm.capitalone.com/" alt='CapitalOne GM site.'>https://gm.capitalone.com/</Link></p>
+  <p><Link href="https://justdoit.nike.com/" alt='Just do it Nike website.'>https://justdoit.nike.com/</Link></p>
+  <p><Link href="https://www.algolia.com/" alt='Algolia'>https://www.algolia.com/</Link></p>
+  <p><Link href="https://www.carbondesignsystem.com/" alt='Carbon Design System'>https://www.carbondesignsystem.com/</Link></p>
 </Appear>
 
 ---
 
-# Demo (pokemon gif battling)
+# CRA vs. Gatsby - Out of the Box
+
+```notes
+
+- show example of create-react-app Performance
+https://nonchalant-expert.surge.sh/
+https://lumpy-mailbox.surge.sh/
+- show example of gatsby-js Performance
+
+```
 
 ---
 
-# Future opportunities
-
-What to put here...
+# create-react-app
 
 ---
 
-# How to get started with Gatsby
+<Link href='https://nonchalant-expert.surge.sh/' alt='create-react-app example.' target="_blank">
+  <img width='1700' src='https://res.cloudinary.com/dobfxs62e/image/upload/v1554394459/magnolia-js/create-react-app.png' alt='create-react-app audits screenshot.' />
+</Link>
 
-<ul style={{textAlign: 'left', marginBottom: '120px'}}>
-  <Link href='https://www.gatsbyjs.org/docs/' alt='gatsbyjs website.'><li>Gatsby Docs</li></Link>
-  <Link href='https://www.youtube.com/watch?v=iLRB3yIF9DY&t=1s' alt='Link to YouTube video - build gatsby site in less than 5 mins.'><li>Build a Gatsby website in less than 5 mins!</li></Link>
-</ul>
+---
+
+# gatsby-starter-hello-world
+
+---
+
+<Link href='https://lumpy-mailbox.surge.sh/' alt='gatsby-hello example.' target="_blank">
+  <img width='1700' src='https://res.cloudinary.com/dobfxs62e/image/upload/v1554394459/magnolia-js/gatsby-hello.png' alt='create-react-app gatsby clone audits screenshot.' />
+</Link>
+
+---
+
+# gatsby-starter-default
+
+---
+
+<Link href='https://gatsbyjs.github.io/gatsby-starter-default/' alt='gatsby-starter-default example.' target="_blank">
+  <img width='1700' src='https://res.cloudinary.com/dobfxs62e/image/upload/v1554394459/magnolia-js/gatsby-starter-default.png' alt='gatsby-starter-default audits screenshot.' />
+</Link>
+
+---
+
+# gatsby-starter-blog
+
+---
+
+<Link href='https://gatsby-starter-blog-demo.netlify.com/' alt='gatsby-starter-blog example.' target="_blank">
+  <img width='1700' src='https://res.cloudinary.com/dobfxs62e/image/upload/v1554394459/magnolia-js/gatsby-starter-blog.png' alt='gatsby-starter-blog audits screenshot.' />
+</Link>
 
 ---
 
 # Other Considerations
 
+<Appear>
+  <p>What if I don't like React?</p>
+  <p>What if I don't need routing?</p>
+  <p>GraphQL isn't beginner-friendly</p>
+  <p>What if I need a custom Node/Express server?</p>
+</Appear>
+
+```notes
+Gatsby dynamic apps
+Gridsome for Vue developers
+```
+
+---
+
+# Future opportunities
+
+<Appear>
+  <p>Themes - <Link href='https://blog.apollographql.com/a-new-apollo-docs-experience-5645b9d56260' alt='Apollo blog post link.'>Apollo docs built with Gatsby themes</Link></p>
+  <p>Preview - <Link href='https://www.gatsbyjs.org/blog/2019-03-22-introducing-gatsby-preview-beta/' alt='Gatsby Preview blog post.'>Introducing Gatsby Preview Beta</Link></p>
+  <p>Customize GraphQL schema - <Link href='https://www.gatsbyjs.org/blog/2019-03-18-releasing-new-schema-customization/' alt='New Gatsby schema customization api log post.'>New Schema Customization API - Available in Gatsby 2.2.0</Link></p>
+</Appear>
+
+```notes
+Future opportunities for JavaScript Apps built with Gatsby
+```
+
+---
+
+# Getting Started with Gatsby
+
+<Appear>
+  <Link href='https://www.gatsbyjs.org/docs/' alt='gatsbyjs website.'><p>Gatsby Docs</p></Link>
+  <Link href='https://www.youtube.com/watch?v=iLRB3yIF9DY&t=1s' alt='Link to YouTube video - build gatsby site in less than 5 mins.'><p>Build a Gatsby website in less than 5 mins!</p></Link>
+</Appear>
+
 ---
 
 # Summary
 
-What did we talk about...
+<Appear>
+  <p>Gatsby == opinionated `create-react-app` with some benefits</p>
+  <p>Future looks bright for Gatsby</p>
+  <p>Prediction: more apps/sites will be built with Gatsby</p>
+</Appear>
 
 ---
 
-# Closing Line
+# Try Gatsby
 
-YOU CAN STILL USE CREATE-REACT-App but I won't be your friend...
-Entrace you'll make using Gatsby https://giphy.com/gifs/sup-mNf9NcEI1jZW8
+<iframe src="https://giphy.com/embed/rY93u9tQbybks" width="480" height="200" frameBorder="0" allowFullScreen></iframe>
+
 ---
 
-<h1>👀 ➡️ 💺</h1>
-
-<h2>#️⃣</h2>
+<div>
+  <h1>👀 ➡️ 💺</h1>
+  <h2>#️⃣</h2>
+</div>
 
 <Appear>
-  <p>Free swag item </p>
+  <p>Free swag </p>
 </Appear>
 
 ---
